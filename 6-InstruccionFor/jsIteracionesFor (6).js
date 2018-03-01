@@ -6,7 +6,7 @@ function Mostrar()
     {
         if(conteo%2==0&&conteo!=0)
         {
-            alert(conteo)
+            alert("Pares="+conteo)
             cantidadPares++
         }
     }
