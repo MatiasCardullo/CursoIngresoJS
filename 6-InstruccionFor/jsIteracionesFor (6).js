@@ -4,7 +4,7 @@ function Mostrar()
     var cantidadPares=0
     for(var conteo=1;conteo<numero;conteo++)
     {
-        if(conteo%2==0&&conteo!=0)
+        if(conteo%2==0)
         {
             alert("Pares="+conteo)
             cantidadPares++
