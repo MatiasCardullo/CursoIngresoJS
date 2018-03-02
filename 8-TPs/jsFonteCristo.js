@@ -61,5 +61,15 @@ function VerificarPrimo ()
 }
 function NumerosPrimos () 
 {
- 	
+    var numero=document.getElementById("numero").value
+    var cantidadDivisores=0
+    for(var conteo=1;conteo<=numero;conteo++)
+    {
+        if(numero%conteo==0){
+            cantidadDivisores++
+        }
+        if(cantidadDivisores==2&&numero==conteo){
+            alert(numero+" es un numero primo")
+        }
+    }
 }
